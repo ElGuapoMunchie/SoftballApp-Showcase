@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Team Charles - EIS Mobile App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <html lang="en">
+</head>
+
+<body>
+  <div class="content-container">
+    <header class="site-header">
+      <h1>Extra Inning Softball Mobile App - Team Charles</h1>
+    </header>
+
+    <nav class="navbar">
+      <a href="#abs">Abstract</a>
+      <a href="#team">Team Members</a>
+      <a href="#built">Project Description</a>
+      <a href="#pics">Screenshots</a>
+    </nav>
+
+    <div class="main-content">
+
+      <div class="image-container">
+        <img src="images/1.png" alt="The Extra Inning Softball Logo"
+          style="width:128px;height:128px;">
+        <h1>+</h1>
+        <img src="images/team-logos/questionHorse.png" alt="The Extra Inning Softball Logo" style="width:128px;height:128px;">
+      </div>
+
+      <section id="abs">
+        <h2>Abstract</h2>
+        <p>This project is a cross-platform mobile application developed for Extra Inning Softball, a digital magazine
+          with a
+          substantial mobile user base. Built using Flutter and Dart, the app connects to a WordPress backend and
+          integrates
+          JWT authentication for secure user login and tiered membership access.
+        </p>
+        <p>Our team of four Computer Science seniors completed the application over five sprints, using agile
+          methodology
+          to
+          iteratively refine user experience and performance.
+        </p>
+        <p>Key features include dynamic content retrieval via the WordPress REST API, a responsive UI with dark mode
+          support,
+          personalized settings (display preferences, account info), and streamlined navigation for both free and
+          premium
+          users. The project also involved implementing secure credential storage, state management, and custom theming
+          to
+          align with the brand’s existing web design.
+        </p>
+        <p>To enhance usability beyond the existing website, we introduced content filtering and a comprehensive search
+          function- features currently unavailable on the EIS site. The app also includes dedicated pages such as Home,
+          News,
+          Nominations/Rankings, and Polls, reflecting the most frequently accessed areas by users.
+        </p>
+        <p>By emphasizing agile principles- such as continuous feedback, sprint retrospectives, and user-focused
+          testing-
+          we
+          delivered a secure, high-performance application that aligns with the brand’s design language and serves the
+          needs
+          of both casual readers and paid subscribers.
+        </p>
+      </section>
+      <section id="team">
+        <h2 first>Members</h2 first>
+        <!-- <ul>
+          <li>Kadon Boldt</li>
+          <li>Emma Gifford</li>
+          <li>Colton Gordon</li>
+          <li>Mark Muench</li>
+        </ul> -->
+
+        <div class="feature-row">
+          <div class="feature-item">
+            <h3>Kadon Boldt</h3>
+            <img src="images/meet_the_team/kadonCropped.png" alt="Kadon Boldt">
+          </div>
+
+          <div class="feature-item">
+            <h3>Emma Gifford</h3>
+            <img src="images/meet_the_team/emmaCropped.png" alt="Emma Gifford">
+          </div>
+
+          <div class="feature-item">
+            <h3>Colton Gordon</h3>
+            <img src="images/meet_the_team/coltonCropped.png" alt="Colton Gordon">
+          </div>
+
+          <div class="feature-item">
+            <h3>Mark Muench</h3>
+            <img src="images/meet_the_team/markCropped.png" alt="Mark Muench">
+          </div>
+        </div>
+
+      </section>
+      <section id="built">
+        <h2>Project Description</h2>
+        <p>Using Flutter and Dart, our team developed a cross-platform mobile application that displays a variety of
+          content from the Extra Inning Softball (EIS) website. The site's content- including articles, images, tables,
+          and YouTube videos- is hosted through WordPress, with certain posts restricted to different membership tiers
+          via
+          the MemberPress plugin.
+        </p>
+        <p>To access both public and restricted content, we implemented a background authentication service using JSON
+          Web
+          Tokens (JWT) and a WordPress plugin, enabling secure communication between the app and the existing backend
+          infrastructure. We also incorporated secure local storage, allowing users to remain logged in between sessions
+          without needing to re-authenticate each time the app is launched.
+        </p>
+        <p>If a user encounters restricted content while not logged in, they are able to view a preview of the article
+          before being prompted to either sign in or create an account.
+        </p>
+        <p>The app also features several dedicated pages, including a Home page, a searchable and filterable News feed,
+          a
+          Rankings page, and a Polls page. Additionally, users can navigate to the Settings menu to customize in-app
+          display preferences and manage their account login and registration status.
+        </p>
+        <p>Throughout development, we prioritized testing for both user-facing components and backend features to ensure
+          a
+          stable, reliable experience. Ultimately, this resulted in an application that we are proud to present and
+          showcase.
+        </p>
+      </section>
+
+      <section id="pics">
+        <h2>Screenshots</h2>
+
+        <section>
+          <h3>Light Mode</h3>
+          <div class="feature-row">
+            <div class="feature-item">
+              <img src="images/app_screenshots/light/login2.png" alt="Login Page">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/light/home2.png" alt="Home Page">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/light/News2.png" alt="News Page">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/light/article.png" alt="A sample article">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/light/joinArticle2.png" alt="An article with a 'join now' popup message">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/light/rankings2.png" alt="Rankings Page">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/light/settings2.png" alt="Settings Page">
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Dark Mode</h3>
+          <div class="feature-row">
+            <div class="feature-item">
+              <img src="images/app_screenshots/dark/login.png" alt="Login Page">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/dark/home.png" alt="Home Page">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/dark/News.png" alt="News Page">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/dark/article.png" alt="A sample article">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/dark/joinArticle.png" alt="An article with a 'join now' popup message">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/dark/rankings.png" alt="Rankings Page">
+            </div>
+
+            <div class="feature-item">
+              <img src="images/app_screenshots/dark/settings.png" alt="Settings Page">
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </div>
+
+</body>
